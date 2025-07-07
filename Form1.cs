@@ -137,7 +137,7 @@ namespace MakeYourPizza
         }
         private void chkOnion_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(10, chkOnion.Checked);
+            AddOrSubInTotalSalary(5, chkOnion.Checked);
             labFinalToppings.Text = GetSelectedToppings();
 
         }
@@ -154,13 +154,13 @@ namespace MakeYourPizza
         }
         private void chkExtraCheese_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(10, chkExtraCheese.Checked);
+            AddOrSubInTotalSalary(5, chkExtraCheese.Checked);
             labFinalToppings.Text = GetSelectedToppings();
         }
 
         private void chkOlives_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(10, chkOlives.Checked);
+            AddOrSubInTotalSalary(5, chkOlives.Checked);
             labFinalToppings.Text = GetSelectedToppings();
 
 
@@ -168,7 +168,7 @@ namespace MakeYourPizza
 
         private void chkMushrooms_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(10, chkMushrooms.Checked);
+            AddOrSubInTotalSalary(5, chkMushrooms.Checked);
             labFinalToppings.Text = GetSelectedToppings();
 
 
@@ -176,7 +176,7 @@ namespace MakeYourPizza
 
         private void chkTomatoes_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(10, chkTomatoes.Checked);
+            AddOrSubInTotalSalary(5, chkTomatoes.Checked);
             labFinalToppings.Text = GetSelectedToppings();
 
 
@@ -184,7 +184,7 @@ namespace MakeYourPizza
 
         private void chkGreenPeppers_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(10, chkGreenPeppers.Checked);
+            AddOrSubInTotalSalary(5, chkGreenPeppers.Checked);
             labFinalToppings.Text = GetSelectedToppings();
 
 
@@ -212,14 +212,14 @@ namespace MakeYourPizza
 
         private void rbThinCrust_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(10, rbThinCrust.Checked);
+            AddOrSubInTotalSalary(0, rbThinCrust.Checked);
             labFinalCrustType.Text = "Thin Crust";
 
         }
 
         private void rbThinkCrust_CheckedChanged(object sender, EventArgs e)
         {
-            AddOrSubInTotalSalary(20, rbThinkCrust.Checked);
+            AddOrSubInTotalSalary(10, rbThinkCrust.Checked);
             labFinalCrustType.Text = "Think Crust";
 
         }
